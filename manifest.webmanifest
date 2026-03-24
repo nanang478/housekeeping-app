@@ -1,0 +1,21 @@
+{
+  "name": "Smart Housekeeping",
+  "short_name": "Housekeeping",
+  "start_url": "/login.php",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f5f7fa",
+  "theme_color": "#28a745",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
