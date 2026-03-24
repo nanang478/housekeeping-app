@@ -17,10 +17,12 @@ $data = mysqli_fetch_assoc($q);
 $_SESSION['user']=$data;
 
 if($data['role']=="housekeeper"){
-header("Location:home.php");
+header("Location:https://housekeeping-app-two.vercel.app/home.html");
 }else{
-header("Location:supervisor/dashboard.php");
+header("Location:https://housekeeping-app-two.vercel.app/dashboard.html");
 }
+
+exit;
 
 }
 
@@ -31,11 +33,9 @@ header("Location:supervisor/dashboard.php");
 <html>
 <head>
     
-<link rel="manifest" href="/manifest.webmanifest?v=1">
+<link rel="manifest" href="/manifest.json">
 <meta name="theme-color" content="#1e88e5">
 <link rel="apple-touch-icon" href="/icon.png">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="mobile-web-app-capable" content="yes">
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
