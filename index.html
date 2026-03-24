@@ -1,9 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta http-equiv="refresh" content="0; url=/login.php">
+  <title>Login</title>
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#28a745">
 </head>
 <body>
-  Redirecting...
+
+<h2>Login</h2>
+
+<form method="POST" action="https://sjr.infinityfreeapp.com/login.php">
+  <input type="text" name="username" placeholder="Username" required><br><br>
+  <input type="password" name="password" placeholder="Password" required><br><br>
+  <button type="submit">Login</button>
+</form>
+
 </body>
 </html>
